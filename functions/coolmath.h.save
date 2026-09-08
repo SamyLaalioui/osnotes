@@ -1,0 +1,38 @@
+/**
+ *@brief math functionality declarations 
+ *@author Samy Laalioui 
+ */
+
+
+//#pragma once
+
+
+//Header guard 
+#ifndef COOLMATH_H
+#define COOLMATH_H
+
+/*
+*/
+struct vec2d
+{
+ int x;
+ int y;
+} vec2d;
+
+
+
+//TODO: put function on documentation here
+unsigned int gcd(unsigned int a, unsigned int b); 
+
+//vec2 functions
+
+//type is struct vec2d
+//without the typedef
+//int dotprod(struct vec2d a, struct vec2d b);
+
+
+// with typedef
+int dotprod(vec2d a, vec2d b)
+
+
+#endif //COOLMATH_H
